@@ -152,7 +152,7 @@
 </ul><h3>
 <a name="modulization-of-cssjshtml" class="anchor" href="#modulization-of-cssjshtml"><span class="octicon octicon-link"></span></a>Modulization of CSS/JS/HTML</h3>
 
-<p>See /examples folder </p>
+<p>See <a href="#directory-structure">/examples folder</a> </p>
 
 <h4>
 <a name="component-principles-to-follow" class="anchor" href="#component-principles-to-follow"><span class="octicon octicon-link"></span></a>Component Principles to Follow</h4>
@@ -255,9 +255,9 @@
 <p>Is it really worth using jQuery for some of the projects you're asked to work on? If it's something small, or IE9+, many of the selectors you're using to are about <strong>60x</strong> faster than their jQuery equivalent.</p>
 
 <div class="highlight highlight-javascript"><pre>
-<span class="nx">$</span><span class="p">(</span><span class="s1">'.element'</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'newClass'</span><span class="p">);</span> 
+<span class="nx">$</span><span class="p">(</span><span class="s1">'.element'</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'newClass'</span><span class="p">);</span>
 
-<span class="nx">vs</span><span class="p">.</span> 
+<span class="nx">vs</span><span class="p">.</span>
 
 <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'.element'</span><span class="p">).</span><span class="nx">className</span> <span class="o">=</span> <span class="s1">'newClass'</span><span class="p">;</span> <span class="nx">IE8</span><span class="o">+</span>
 <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByClassName</span><span class="p">(</span><span class="s1">'element'</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">className</span> <span class="o">=</span> <span class="s1">'newClass'</span><span class="p">;</span> <span class="nx">IE9</span><span class="o">+</span>
@@ -284,7 +284,7 @@
     <span class="nx">e</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
 <span class="p">});</span>
 
-<span class="nx">vs</span><span class="p">.</span> 
+<span class="nx">vs</span><span class="p">.</span>
 
 <span class="kd">var</span> <span class="nx">_element</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByClassName</span><span class="p">(</span><span class="s1">'element'</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span>
 
