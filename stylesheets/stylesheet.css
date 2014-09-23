@@ -115,6 +115,10 @@ nav.toc {
 	padding-left: 0;
 }
 
+ul.table > li > a {
+	font-weight: bold;
+}
+
 .toc a {
   color: inherit;
 }
