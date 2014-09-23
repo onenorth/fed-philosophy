@@ -31,7 +31,11 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	padding-left: 16px;
+}
+
+li {
+	margin-bottom: 10px;
 }
 blockquote, q {
 	quotes: none;
@@ -108,23 +112,22 @@ nav.toc {
   margin-bottom: 5px;
 }
 
+.toc .table.ul{
+	padding-left: 0;
+}
+
 .toc a {
   color: inherit;
 }
 
+.toc ul li {
+	margin-bottom: 5px;
+}
+
 .toc ul li > ul {
 	list-style: disc;
+	padding-left: 15px;
 	margin-bottom: 16px;
-}
-
-.toc ul li {
-	list-style: none;
-	padding-left: 0;
-}
-
-.toc ul li ul li {
-	list-style: disc inside;
-	padding-left: 10px;
 }
 
 .inner {
@@ -235,7 +238,6 @@ ul, ol, dl {
   margin-bottom: 20px;
 }
 
-
 /* COMMON STYLES */
 
 hr {
@@ -288,13 +290,13 @@ h1 {
 
 h2 {
   color: #303030;
-  font-size: 1.35em;
+  font-size: 1.45em;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
 h3 {
-  font-size: 1.05em;
+  font-size: 1.1em;
   color: #303030;
   font-weight: bold;
 }
@@ -332,15 +334,7 @@ blockquote {
   padding: 0 0 0 30px;
 }
 
-ul li {
-  list-style: disc inside;
-  padding-left: 20px;
-}
 
-ol li {
-  list-style: decimal inside;
-  padding-left: 3px;
-}
 
 dl dt {
   color: #303030;
